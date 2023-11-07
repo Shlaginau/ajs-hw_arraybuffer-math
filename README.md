@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/fpruisxlsalgdghu?svg=true)](https://ci.appveyor.com/project/Shlaginau/ajs-hw-arraybuffer-math)
+
 # Домашнее задание к лекции «`ArrayBuffer`»
 
 ## `Math (log/trig)`
