@@ -5,7 +5,18 @@ class MathClass extends Character {
     super(name, type);
     this.attackPower = 0;
     this.distance = 0;
-    this.stoned = false;
+    this.stonedValue = false;
+  }
+
+  get stoned() {
+    return this.stonedValue;
+  }
+
+  set stoned(value) {
+    if (typeof value !== 'boolean') {
+      throw new Error('Stoned should be a boolean value');
+    }
+    this.stonedValue = value;
   }
 
   get attack() {
